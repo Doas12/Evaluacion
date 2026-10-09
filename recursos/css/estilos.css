@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.header {
+  background-color: #465B75;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 280px;
+}
+
+.header h1{
+  color:white
+  
+}
+
+.menu a{
+  color: white;
+  font-size: 30px;
+}
+
+.logo{
+  height: 200px;
+  width: 290px;
+  
+}
+
+.contenedor-menu{ 
+    margin-right: 30px;
+    
+}
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.contenedor-main{
+    background-color: #DEE9F7;
+}
+
+.main{
+    display:flex;
+    margin: 3rem;
+}
+.filtro{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: blue solid;
+}
+
+.tarjeta-venta{
+    background-color: white;
+    display: flex;
+    border: rgba(230, 127, 11, 0.911) solid;
+    margin-left: 5rem;
+}
+
+footer{
+    background-color: #333333;
+    display: block;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
